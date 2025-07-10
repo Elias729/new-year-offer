@@ -35,6 +35,8 @@
     padding: auto;
 }
 
+/* offer style */
+
 .offer {
     text-align: center;
     margin: 120px auto;
@@ -64,4 +66,78 @@
 .offer img {
     height: 500px;
     width: 800px;
+}
+
+/* welcome style */
+
+.welcome {
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 1320px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.welcome::after {
+    content: "";
+    position: absolute;
+    top: 70px;
+    right: 140px;
+    background-image: url(./images/Group70.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 465px;
+    width: 320px;
+}
+
+.welcome-hedline {
+    padding-top: 140px;
+    padding-left: 126px;
+    padding-bottom: 0;
+    font-size: 68px;
+    font-weight: bold;
+    color: #FFFFFF;
+    width: 40%;
+    margin-bottom: 0;
+}
+
+.welcome-title {
+    padding-top: 20px;
+    padding-left: 126px;
+    color: #FFFFFF;
+    width: 41%;
+    font-size: 18px;
+}
+
+.btn {
+    padding: 12px 30px;
+    background-color: #FF4D4D;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    margin-left: 126px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #cc0000;
+}
+
+/* dadline style */
+
+.dadline {
+    height: 475px;
+    width: 1320px;
+    background: linear-gradient(to bottom, #FF0000 0%, rgba(255, 255, 255, 0.4) 100%, #FFFFFF 100%);
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    margin-top: 120px;
+    border-radius: 15px;
 }
